@@ -5,15 +5,6 @@ updates:
     schedule:
       interval: weekly
     ignore:
-      - dependency-name: org.apache.tomcat:tomcat-util
-        update-types:
-          - version-update:semver-major
-      - dependency-name: org.apache.tomcat:tomcat-catalina
-        update-types:
-          - version-update:semver-major
-      - dependency-name: org.apache.tomcat:tomcat-coyote
-        update-types:
-          - version-update:semver-major
-      - dependency-name: org.apache.tomcat:tomcat-juli
+      - dependency-name: "*"
         update-types:
           - version-update:semver-major

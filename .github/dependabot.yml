@@ -4,7 +4,7 @@ updates:
     directory: "/" # Root of your project
     schedule:
       interval: weekly
-    ignore:
-      - dependency-name: "*"
-        update-types:
-          - version-update:semver-major
+    # ignore:
+    #   - dependency-name: "*"
+    #     update-types:
+    #       - version-update:semver-major

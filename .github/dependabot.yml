@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: maven
+    directory: "/" # Root of your project
+    schedule:
+      interval: weekly
+    ignore:
+      - dependency-name: org.apache.tomcat:tomcat-util
+        update-types:
+          - version-update:semver-major
+      - dependency-name: org.apache.tomcat:tomcat-catalina
+        update-types:
+          - version-update:semver-major
+      - dependency-name: org.apache.tomcat:tomcat-coyote
+        update-types:
+          - version-update:semver-major
+      - dependency-name: org.apache.tomcat:tomcat-juli
+        update-types:
+          - version-update:semver-major

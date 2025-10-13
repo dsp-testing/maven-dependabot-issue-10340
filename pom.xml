@@ -27,7 +27,7 @@
     <dependency>
       <groupId>org.apache.tomcat</groupId>
       <artifactId>tomcat-juli</artifactId>
-      <version>10.1.43</version>
+      <version>10.1.47</version>
     </dependency>
   </dependencies>
 </project>
